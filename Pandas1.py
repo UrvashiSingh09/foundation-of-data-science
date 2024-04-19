@@ -123,3 +123,14 @@
 # new_df = pd.DataFrame(new_rows, index=[0])
 # df2 = df1.append(new_rows, ignore_index=True)
 # print(df2)
+
+
+# import pandas as pd
+# data = {'Name':['raj','jai','krish','anuj'],
+#         'Age':[27,65,87,96],
+#         'Address':['betul','bhopal','delhi','jaipur'],
+#         'Qualification':['msc','btech','mtech','mba']}
+# df= pd.DataFrame(data)
+# print(df[['Name','Qualification']])
+
+
